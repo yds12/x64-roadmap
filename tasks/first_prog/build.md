@@ -33,6 +33,10 @@ value of the last executed program:
 
 You should see `0` in your terminal.
 
+Try also the `exit256.asm` that uses another exit code. It turns out that
+the exit codes are represented with 1 byte (unsigned), in this case ranging 
+from 0-255.
+
 ## A Shortcut
 
 If you are working from the local 
