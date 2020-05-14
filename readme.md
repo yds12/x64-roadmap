@@ -15,13 +15,13 @@ containing the solution (`tasks/installation/nasm.md`).
 
 ## The Basics
 
-* ✓ Install the necessary tools (`installation/`)
+* ✓ Install the necessary tools ([`installation/`](installation))
 
   * ✓ Install `ld` (most Linux distros already come with have this installed)
 
-  * ✓ Install `nasm` (`nasm.md`)
+  * ✓ Install `nasm` ([`nasm.md`](installation/nasm.md))
 
-* First program (`first_prog/`)
+* ✓ First program (`first_prog/`)
 
   * ✓ Write, assemble and run a program that "does nothing", and check 
   the return value (`build.md`)
