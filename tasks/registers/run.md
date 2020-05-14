@@ -27,7 +27,7 @@ And execute:
 
 Notice that copying `7` (the `111` in the end of the binary number)
 to **AX** did not clear the upper half of **EAX** (notice that `1` in the
-17th bit). However, this is behaviour does not hold for `mov` into
+17th bit). However, this behaviour does not hold for `mov` into
 32-bit registers. If we compile and run `reg3.asm` (in the same way), we get:
 
     $ bin/reg3
