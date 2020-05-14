@@ -16,6 +16,11 @@ Then, use gcc to compile `caller.c`, linking it to our asm library:
 
     $ gcc tasks/call_from_c/caller.c bin/ret_int64.o -o bin/caller_c
 
+Notice that our `ret_int64.asm` does not have an entry point, denoted in
+assembly by the label `_start`. Here, the entry point will be provided by
+the C runtime, which will call the main function from `caller.c`, which in turn
+will call our program.
+
 Now, just invoke `caller_c`:
 
     $ bin/caller_c

@@ -33,8 +33,15 @@ the `tasks` directory.
   64-bit integer ([ret_int64.asm](tasks/call_from_c/ret_int64.asm))
 
   * ✓ Write a small C program that calls this assembly function and displays
-  the result in decimal and hexadecimal formats 
+  the result in decimal, hexadecimal and binary formats 
   ([`caller.c`](tasks/call_from_c/caller.c))
+
+* Make our lives easier: make some bash files that
+
+  * Passing the name of the `.asm` file, assembles and links into an executable
+
+  * Passing the name of the `.asm` file, assembles and creates an
+  executable from `caller.c` linked with our assembly program
 
 * Registers ([`registers`](tasks/registers))
 
