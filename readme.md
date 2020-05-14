@@ -21,7 +21,10 @@ containing the solution (`tasks/installation/nasm.md`).
 
   * ✓ Install `nasm` (`nasm.md`)
 
-* Assemble and run a program that "does nothing", and check the return value
+* First program (`first_prog/`)
+
+  * ✓ Write, assemble and run a program that "does nothing", and check 
+  the return value (`build.md`)
 
 * Make a "hello world" program
 
