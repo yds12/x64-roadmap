@@ -31,17 +31,18 @@ containing the solution (`tasks/installation/nasm.md`).
 
 * Registers ([`registers`](tasks/registers))
 
-  * Register names and sizes ([theory](tasks/registers/theory.md))
+  * ✓ Register names and sizes ([theory](tasks/registers/theory.md))
 
   * The `mov` instruction.
 
   * Write a program that moves values between registers of different sizes.
 
-* Look into machine code ([how to](tasks/inspect_binary/howto.md))
+* ✓ Look into machine code 
+  ([`inspect_binary/howto.md`](tasks/inspect_binary/howto.md))
 
-  * Check out the machine code of a program with `hexdump`
+  * ✓ Check out the machine code of a program with `hexdump`
 
-  * Disassemble a program with `objdump`
+  * ✓ Disassemble a program with `objdump`
 
 * Unconditional Jump
 
