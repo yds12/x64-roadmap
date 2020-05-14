@@ -29,12 +29,6 @@ containing the solution (`tasks/installation/nasm.md`).
 
 * ✓ Make a "hello world" program ([`hello.asm`](tasks/helloworld/hello.asm))
 
-* Look into machine code
-
-  * Check out the machine code of a program with `hexdump`
-
-  * Disassemble a program with `objdump`
-
 * Registers ([`registers`](tasks/registers))
 
   * Register names and sizes ([theory](tasks/registers/theory.md))
@@ -42,6 +36,12 @@ containing the solution (`tasks/installation/nasm.md`).
   * The `mov` instruction.
 
   * Write a program that moves values between registers of different sizes.
+
+* Look into machine code ([how to](tasks/inspect_binary/howto.md))
+
+  * Check out the machine code of a program with `hexdump`
+
+  * Disassemble a program with `objdump`
 
 * Unconditional Jump
 

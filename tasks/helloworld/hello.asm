@@ -9,8 +9,9 @@ _start:             ; the starting point of our program
   mov rdi, 1        ; puts 1 into register rdi
   mov rsi, helloMsg ; puts the address pointed by helloMsg into rsi
   mov rdx, 13       ; 13 is the size of our message in bytes, put this into rdx
+
   syscall           ; Execute the system call. Remember that the type of
-                    ; system calls is determined by rax, in this case it has
+                    ; system call is determined by rax, in this case it has
                     ; a 1, which means a syscall for write. The content of
                     ; rdi is the file descriptor, in this case 1 means stdout,
                     ; the standard output. The system call takes the address

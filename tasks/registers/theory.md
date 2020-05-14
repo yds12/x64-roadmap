@@ -6,7 +6,8 @@ These are the (so-called "general purpose") registers in the x64 architecture:
 
 In x64 (or x86_64) archtecture, the registers have a size of 64 bits or
 8 bytes each. As we can see, each register is also divided into smaller parts.
-The lower half of the **RAX** register, for example, is called **EAX** and 
+Take for example the **RAX** register, which is a whole 64-bit register.
+The lower half of **RAX** is called **EAX** and 
 it can be treated more or less like a register itself. **EAX** has 32 bits or
 4 bytes. Similarly, the lower half of **EAX** is **AX**, a 16-bit 
 register (or 2 bytes). **AX** is divided into 2 registers: **AL** 
