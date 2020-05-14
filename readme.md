@@ -4,7 +4,12 @@ learn, sorting them from the most basic to most advanced, adding a series of
 small tasks for each topic.
 
 As I complete each task/topic, a check mark (✓) will be added to the item
-and a pointer to the solution will be provided.
+and a pointer to the solution will be provided. All solutions are inside
+the `tasks` directory. Then each major topic (for example: *Install the
+necessary tools*) in the list will refer to a directory inside `tasks` 
+where its solutions are (in this case, `tasks/installation`), and then each 
+task of the topic (for example, *install nasm*) will refer to the main file 
+containing the solution (`tasks/installation/nasm.md`).
 
 # Roadmap
 
@@ -14,7 +19,7 @@ and a pointer to the solution will be provided.
 
   * ✓ Install `ld` (most Linux distros already come with have this installed)
 
-  * ✓ Install `nasm` (`installation/nasm.md`)
+  * ✓ Install `nasm` (`nasm.md`)
 
 * Assemble and run a program that "does nothing", and check the return value
 
