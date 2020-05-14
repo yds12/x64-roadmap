@@ -17,9 +17,10 @@ containing the solution (`tasks/installation/nasm.md`).
 
 * ✓ Install the necessary tools ([`installation/`](tasks/installation))
 
-  * ✓ Install `ld` (most Linux distros already come with this installed)
-
   * ✓ Install `nasm` ([`nasm.md`](tasks/installation/nasm.md))
+
+  * ✓ Install `ld`, `gcc`, `hexdump`, `objdump` (most Linux distros 
+  already come with this installed)
 
 * ✓ First program ([`first_prog/`](tasks/first_prog))
 
@@ -27,6 +28,12 @@ containing the solution (`tasks/installation/nasm.md`).
   the return value ([`build.md`](tasks/first_prog/build.md))
 
 * ✓ Make a "hello world" program ([`hello.asm`](tasks/helloworld/hello.asm))
+
+* Look into machine code
+
+  * Check out the machine code of a program with `hexdump`
+
+  * Disassemble a program with `objdump`
 
 * Registers ([`registers`](tasks/registers))
 
