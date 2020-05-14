@@ -42,6 +42,7 @@ directory where `first.asm` is, we can do all these steps with just:
     $ ld first.o -o first
     $ ./first
     $ echo $?
+    0
 
 Or even shorter:
 

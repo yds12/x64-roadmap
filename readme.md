@@ -17,7 +17,7 @@ containing the solution (`tasks/installation/nasm.md`).
 
 * ✓ Install the necessary tools ([`installation/`](tasks/installation))
 
-  * ✓ Install `ld` (most Linux distros already come with have this installed)
+  * ✓ Install `ld` (most Linux distros already come with this installed)
 
   * ✓ Install `nasm` ([`nasm.md`](tasks/installation/nasm.md))
 
@@ -26,11 +26,11 @@ containing the solution (`tasks/installation/nasm.md`).
   * ✓ Write, assemble and run a program that "does nothing", and check 
   the return value ([`build.md`](tasks/first_prog/build.md))
 
-* Make a "hello world" program
+* ✓ Make a "hello world" program ([`hello.asm`](tasks/helloworld/hello.asm))
 
-* Registers
+* Registers ([`registers`](tasks/registers))
 
-  * Register names and sizes.
+  * Register names and sizes ([theory](tasks/registers/theory.md))
 
   * The `mov` instruction.
 
@@ -45,3 +45,9 @@ containing the solution (`tasks/installation/nasm.md`).
 * The Stack
 
 * Addresses and Pointers
+
+* The `call` Instruction 
+
+* Calling External Functions
+
+* Interacting with C
