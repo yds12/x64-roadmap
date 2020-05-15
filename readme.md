@@ -69,10 +69,10 @@ the `tasks` directory.
   * ✓ Make a program that uses decrement
   ([`dec.asm`](tasks/arithmetic/dec.asm))
 
-  * Make a program that uses unsigned integer multiplication
+  * ✓ Make a program that uses unsigned integer multiplication
   ([`mul.asm`](tasks/arithmetic/mul.asm))
   
-  * Make a program that uses signed integer multiplication
+  * ✓ Make a program that uses signed integer multiplication
   ([`imul.asm`](tasks/arithmetic/imul.asm))
 
 * ✓ Labels and Unconditional Jumps
@@ -87,9 +87,14 @@ the `tasks` directory.
 
   * ✓ Write a program with a loop ([`loop.asm`](tasks/flags/loop.asm))
 
+  * ✓ Write a program using the overflow flag
+  ([`overflow.asm`](tasks/flags/overflow.asm))
+
 * Logical Operations
 
-  * AND, OR, NOT, XOR
+  * ✓ Use AND and OR ([`and_or.asm`](tasks/logical/and_or.asm))
+  
+  * ✓ Use NOT and XOR ([`not_xor`](tasks/logical/not_xor.asm))
 
 * Bit Operations
 
