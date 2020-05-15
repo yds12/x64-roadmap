@@ -27,7 +27,7 @@ the `tasks` directory.
 
 * ✓ Make a "hello world" program ([`hello.asm`](tasks/helloworld/hello.asm))
 
-* ✓ Call assembly functions from C ([`call_from_c`](tasks/call_from_c))
+* ✓ Call assembly functions from C ([`call_from_c`](tasks/call_from_c/run.md))
 
   * ✓ Write an assembly program with a callable function that returns a
   64-bit integer ([`ret_int64.asm`](tasks/call_from_c/ret_int64.asm))

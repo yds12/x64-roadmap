@@ -73,6 +73,6 @@ instructions.
 
 ## Reference for Syscalls
 
-In this simple example we use a system call. The codes for all system calls
+In this simple example we use a *system call*. The codes for all system calls
 in Linux x64 can be found 
 [here](https://github.com/torvalds/linux/blob/v3.13/arch/x86/syscalls/syscall_64.tbl#L69).

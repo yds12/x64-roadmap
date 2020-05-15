@@ -5,7 +5,7 @@ the content of a register.
 
 We can do this by writing a program that "returns" the value of that register
 by putting it in **RAX** and returning control to the caller, and writing a
-C program to call this assembly program and writing its return to the screen.
+C program to call this assembly program and write its return to the screen.
 
 ## Running
 
@@ -21,7 +21,8 @@ Then, use gcc to compile `caller.c`, linking it to our asm library:
 Notice that our `ret_int64.asm` does not have an entry point, denoted in
 assembly by the label `_start`. Here, the entry point will be provided by
 the C runtime, which will call the main function from `caller.c`, which in turn
-will call our program.
+will call our program 
+([source](https://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux).
 
 Now, just invoke `caller_c`:
 

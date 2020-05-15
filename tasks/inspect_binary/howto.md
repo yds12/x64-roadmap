@@ -61,7 +61,14 @@ the four pairs of hexadecimals (for a total of 64 bits) passed after it.
 Perhaps it has to do with the zeroing of upper bits that we saw
 [earlier](../registers/reg3.asm).
 
+## C versus Assembly binaries
+
 Another interesting to compare, not even using these tools, is the size of
 the executables generated when we made standalone binaries (with a
 `_start` label) and when we linked with the C program. You can use
 the `ls -lh` command to check the sizes of files in a directory.
+
+Since the programs linked with our `caller.c` helper (using the `caller_c`
+script) are much larger than "pure" assembly programs, you can also look
+into the `.o` object files with `objdump`, which will be much smaller, as
+they don't have the instructions inserted by the `gcc`.
