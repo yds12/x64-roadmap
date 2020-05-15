@@ -94,7 +94,7 @@ the `tasks` directory.
 
   * ✓ Use AND and OR ([`and_or.asm`](tasks/logical/and_or.asm))
   
-  * ✓ Use NOT and XOR ([`not_xor`](tasks/logical/not_xor.asm))
+  * ✓ Use NOT and XOR ([`not_xor.asm`](tasks/logical/not_xor.asm))
 
 * Bit Operations
 

@@ -1,4 +1,4 @@
-So far our programs have been quite boring. There is few interesting
+So far our programs have been quite boring. There are few interesting
 things to be done with unconditional jumps. To start doing some control flow,
 we need to learn about *flags*.
 
@@ -29,9 +29,9 @@ If we use the cmp instruction, for example, like below:
 
     cmp rax, rdx
 
-A subtraction of **RAX** - **RDX** is executed. If the result is zero, the
-`zero flag` ZF is set to `1`, otherwise to `0`. If the result is negative,
-the `sign flag` SF is set to `1`, otherwise to `0`. The instruction `sub`
+The subtraction **RAX** - **RDX** is executed. If the result is zero, the
+*zero flag* ZF is set to `1`, otherwise to `0`. If the result is negative,
+the *sign flag* SF is set to `1`, otherwise to `0`. The instruction `sub`
 (for subtraction) does this as well, but the main difference is that
 `cmp` does not alter the operands (**RAX** and **RDX** in our example).
 
@@ -47,6 +47,7 @@ Some other conditional jumps are: `jne` (not equal), `jg` (greater), `jge`
 (greater or equal), `jl` (less), `jle` (less or equal).
 
 But there are many more flag-dependent suffixes that can be used for 
-conditional jumps and other conditional instructions.
+conditional jumps and other conditional instructions. See also the example
+with the overflow flag (`overflow.asm`).
 Some more information on this can be found 
 [here](https://en.wikibooks.org/wiki/X86_Assembly/Control_Flow).
