@@ -34,12 +34,10 @@ part_four:
   jmp part_five
 
 
-
 part_three:
   inc rdx
   inc rdx
   jmp part_four
-
 
 
 part_six:

@@ -1,4 +1,4 @@
-; This program shows how a unconditional jump works.
+; This program shows how an unconditional jump works.
 
 global asm_func
 

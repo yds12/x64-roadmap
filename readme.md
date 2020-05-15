@@ -74,9 +74,12 @@ the `tasks` directory.
   * ✓ Write a program with a `jmp` instruction
   ([`jump.asm`](tasks/jump/jump.asm) and [`labels.asm`](tasks/jump/labels.asm))
 
-* Flags and comparisons
+* ✓ Flags and comparisons ([theory](tasks/flags/theory.md))
 
-* Conditional Jump
+  * ✓ Write a program with a conditional jump 
+  ([`cond_jump.asm`](tasks/flags/cond_jump.asm))
+
+  * ✓ Write a program with a loop ([`loop.asm`](tasks/flags/loop.asm))
 
 * The Stack
 
