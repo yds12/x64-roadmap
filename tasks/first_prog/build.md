@@ -57,6 +57,20 @@ Or even shorter:
 But since the project will have lots of executables, we will leave them all
 at `bin` so we can easily clean up (and make `git` ignore them easily).
 
+## A Script for Quickly Building and Running the Programs
+
+You can also use the `run` script:
+
+    $ ./run first_prog first
+    $ echo $?
+    0
+
+This script takes as parameters the directory name under `tasks` that 
+contains the program (in this case, `first_prog`) and the program name 
+without the `.asm` extension (in this case, `first`). This way we can quickly
+run our assembly programs without typing all the compiling and linking
+instructions.
+
 ## Reference for Syscalls
 
 In this simple example we use a system call. The codes for all system calls

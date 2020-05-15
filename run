@@ -1,0 +1,3 @@
+#!/bin/sh
+nasm -felf64 tasks/"$1/$2".asm -o bin/"$2".o && \
+ld bin/"$2".o -o bin/"$2" && bin/"$2"

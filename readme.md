@@ -30,18 +30,14 @@ the `tasks` directory.
 * ✓ Call assembly functions from C ([`call_from_c`](tasks/call_from_c))
 
   * ✓ Write an assembly program with a callable function that returns a
-  64-bit integer ([ret_int64.asm](tasks/call_from_c/ret_int64.asm))
+  64-bit integer ([`ret_int64.asm`](tasks/call_from_c/ret_int64.asm))
 
   * ✓ Write a small C program that calls this assembly function and displays
   the result in decimal, hexadecimal and binary formats 
   ([`caller.c`](tasks/call_from_c/caller.c))
 
-* Make our lives easier: make some bash files that
-
-  * Passing the name of the `.asm` file, assembles and links into an executable
-
-  * Passing the name of the `.asm` file, assembles and creates an
-  executable from `caller.c` linked with our assembly program
+  * Write a program with a function that returns a negative number
+  ([`ret_neg.asm`](tasks/call_from_c/ret_neg.asm))
 
 * Registers ([`registers`](tasks/registers))
 
@@ -58,6 +54,16 @@ the `tasks` directory.
   * ✓ Check out the machine code of a program with `hexdump`
 
   * ✓ Disassemble a program with `objdump`
+
+* Basic Arithmetic
+
+  * Make a program that sums two numbers
+
+  * Make a program that subtracts two numbers
+  
+  * Make a program that uses increment
+
+  * Make a program that uses decrement
 
 * Unconditional Jump
 
