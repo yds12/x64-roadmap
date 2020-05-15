@@ -36,7 +36,7 @@ the `tasks` directory.
   the result in decimal, hexadecimal and binary formats 
   ([`caller.c`](tasks/call_from_c/caller.c))
 
-  * Write a program with a function that returns a negative number
+  * ✓ Write a program with a function that returns a negative number
   ([`ret_neg.asm`](tasks/call_from_c/ret_neg.asm))
 
 * Registers ([`registers`](tasks/registers))
@@ -55,15 +55,19 @@ the `tasks` directory.
 
   * ✓ Disassemble a program with `objdump`
 
-* Basic Arithmetic
+* ✓ Basic Arithmetic ([`arithmetic`](tasks/arithmetic))
 
-  * Make a program that sums two numbers
+  * ✓ Make a program that sums two numbers 
+  ([`add.asm`](tasks/arithmetic/add.asm))
 
-  * Make a program that subtracts two numbers
+  * ✓ Make a program that subtracts two numbers
+  ([`sub.asm`](tasks/arithmetic/sub.asm))
   
-  * Make a program that uses increment
+  * ✓ Make a program that uses increment
+  ([`inc.asm`](tasks/arithmetic/inc.asm))
 
-  * Make a program that uses decrement
+  * ✓ Make a program that uses decrement
+  ([`dec.asm`](tasks/arithmetic/dec.asm))
 
 * Unconditional Jump
 
