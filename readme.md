@@ -69,19 +69,41 @@ the `tasks` directory.
   * ✓ Make a program that uses decrement
   ([`dec.asm`](tasks/arithmetic/dec.asm))
 
+  * Make a program that uses unsigned integer multiplication
+  ([`mul.asm`](tasks/arithmetic/mul.asm))
+  
+  * Make a program that uses signed integer multiplication
+  ([`imul.asm`](tasks/arithmetic/imul.asm))
+
 * ✓ Labels and Unconditional Jumps
 
   * ✓ Write a program with a `jmp` instruction
   ([`jump.asm`](tasks/jump/jump.asm) and [`labels.asm`](tasks/jump/labels.asm))
 
-* ✓ Flags and comparisons ([theory](tasks/flags/theory.md))
+* ✓ Flags, Comparisons and Conditional Jumps ([theory](tasks/flags/theory.md))
 
   * ✓ Write a program with a conditional jump 
   ([`cond_jump.asm`](tasks/flags/cond_jump.asm))
 
   * ✓ Write a program with a loop ([`loop.asm`](tasks/flags/loop.asm))
 
+* Logical Operations
+
+  * AND, OR, NOT, XOR
+
+* Bit Operations
+
+  * Shift and Rotate operations
+
+* Arithmetic 2
+
+  * Multiplication
+
+  * Division
+
 * The Stack
+
+* Data Types
 
 * Memory Addressing and Pointers
 
@@ -90,3 +112,7 @@ the `tasks` directory.
 * Calling External Functions
 
 * Interacting with C
+
+* Vectors
+
+* Manipulating Strings

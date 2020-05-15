@@ -24,5 +24,7 @@ And one that gives a negative result (`sub_neg.asm`):
 The result of `sub_neg.asm` is `-1`, which, as we saw 
 [before](../call_from_c/ret_neg), is represented as a bunch of ones.
 
-To run the increment (`inc.asm`) and decrement (`dec.asm`) programs, the 
-instructions are similar.
+To run the increment (`inc.asm`), decrement (`dec.asm`), multiplication
+(`mul.asm`) and signed multiplication (`imul.asm`) programs, the 
+instructions are similar. Division is a bit more complicated so we will only
+see it later.
