@@ -24,8 +24,8 @@ root directory and have assembled and linked our `first.asm` program, then type:
 What we see here is the contents of our binary executable file, in hexadecimal
 format. The first number in each line is just the offset of that line
 with respect to the beginning of the file. Then each character after that
-represents 16 bits or 2 bytes. Each group of 4 characters is then a group of
-8 bytes.
+represents 4 bits. Each group of 4 characters is then a group of
+2 bytes.
 
 In this way, we can see the exact output that `nasm` and `ld` generated for
 our assembly code. You will also notice that certain combinations of
@@ -56,10 +56,9 @@ which, in the syntax that we are writing (called "Intel" syntax) would be
 just the lower 32-bit portion of **RAX**.
 
 `B8`, if I understand correctly, is the opcode for `mov eax`, and `3C` is just
-`60` in hexadecimal. But **EAX** is just a 32-bit register, so I wonder why
-the four pairs of hexadecimals (for a total of 64 bits) passed after it.
-Perhaps it has to do with the zeroing of upper bits that we saw
-[earlier](../registers/reg3.asm).
+`60` in hexadecimal. And **EAX** is a 32-bit register, so that is why
+the four pairs of hexadecimals (for a total of 4 bytes or 32 bits) passed 
+after it.
 
 ## C versus Assembly binaries
 
