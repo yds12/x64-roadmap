@@ -69,7 +69,10 @@ the `tasks` directory.
   * ✓ Make a program that uses decrement
   ([`dec.asm`](tasks/arithmetic/dec.asm))
 
-* Unconditional Jump
+* ✓ Labels and Unconditional Jumps
+
+  * ✓ Write a program with a `jmp` instruction
+  ([`jump.asm`](tasks/jump/jump.asm) and [`labels.asm`](tasks/jump/labels.asm))
 
 * Flags and comparisons
 
@@ -77,7 +80,7 @@ the `tasks` directory.
 
 * The Stack
 
-* Addresses and Pointers
+* Memory Addressing and Pointers
 
 * The `call` Instruction 
 
