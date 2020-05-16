@@ -28,3 +28,10 @@ To run the increment (`inc.asm`), decrement (`dec.asm`), multiplication
 (`mul.asm`) and signed multiplication (`imul.asm`) programs, the 
 instructions are similar. Division is a bit more complicated so we will only
 see it later.
+
+There are some subtle details to the specifications of how `mul` and `imul`
+are performed and where the results are stored. Some of it you can see in
+our `mul.asm` and `imul.asm` programs, but for more details, it is good to
+check a manual. Here are some nice references for
+[mul](https://www.felixcloutier.com/x86/mul) and
+[imul](https://www.felixcloutier.com/x86/imul).

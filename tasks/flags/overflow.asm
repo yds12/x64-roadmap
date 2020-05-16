@@ -1,3 +1,6 @@
+; A program that uses the overflow flag by making a conditional jump
+; if there was an overflow in previous calculations.
+
 global asm_func
 
 section .text

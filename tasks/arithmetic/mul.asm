@@ -15,5 +15,5 @@ asm_func:
                ; For this small multiplication, we only need RAX.
                ; Our C caller also is expeting a 64-bit unsigned int, so if
                ; the result is actually using RDX, we won't be able to see
-               ; anything there.
+               ; anything there (we will get a truncated result).
   ret

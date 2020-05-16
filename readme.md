@@ -43,10 +43,12 @@ the `tasks` directory.
 
   * ✓ Register names and sizes ([theory](tasks/registers/theory.md))
 
-  * The `mov` instruction.
+  * The `mov` instruction
 
   * ✓ Write a program that moves values between registers of different sizes
   ([run](tasks/registers/run.md))
+
+  * The `xchg` instruction
 
 * ✓ Look into machine code 
   ([`inspect_binary/howto.md`](tasks/inspect_binary/howto.md))
@@ -90,6 +92,11 @@ the `tasks` directory.
   * ✓ Write a program using the overflow flag
   ([`overflow.asm`](tasks/flags/overflow.asm))
 
+  * Write a program using the `@@`, `@F` and `@B` labels
+
+  * Write a program contrasting the above and below comparisons with the
+  greater than and less than comparisons
+
 * Logical Operations
 
   * ✓ Use AND and OR ([`and_or.asm`](tasks/logical/and_or.asm))
@@ -100,17 +107,21 @@ the `tasks` directory.
 
   * Shift and Rotate operations
 
-* Arithmetic 2
-
-  * Multiplication
-
-  * Division
-
 * The Stack
 
 * Data Types
 
 * Memory Addressing and Pointers
+
+* Special `mov` instructions
+
+  * Sign and Zero Extend `mov` and "size casting" directive
+
+  * Conditional `mov`
+
+* Arithmetic 2
+
+  * Division
 
 * The `call` Instruction 
 
