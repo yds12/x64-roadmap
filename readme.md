@@ -57,7 +57,8 @@ the `tasks` directory.
 
   * ✓ Disassemble a program with `objdump`
 
-* ✓ Basic Arithmetic ([`arithmetic`](tasks/arithmetic))
+* ✓ Basic Arithmetic ([`arithmetic`](tasks/arithmetic)), 
+  ([run](tasks/arithmetic/run.md))
 
   * ✓ Make a program that sums two numbers 
   ([`add.asm`](tasks/arithmetic/add.asm))
@@ -77,7 +78,7 @@ the `tasks` directory.
   * ✓ Make a program that uses signed integer multiplication
   ([`imul.asm`](tasks/arithmetic/imul.asm))
 
-* ✓ Labels and Unconditional Jumps
+* ✓ Labels and Unconditional Jumps ([`jump`](tasks/jump))
 
   * ✓ Write a program with a `jmp` instruction
   ([`jump.asm`](tasks/jump/jump.asm) and [`labels.asm`](tasks/jump/labels.asm))
@@ -97,7 +98,7 @@ the `tasks` directory.
   * Write a program contrasting the above and below comparisons with the
   greater than and less than comparisons
 
-* Logical Operations
+* Logical Operations ([`logical`](tasks/logical))
 
   * ✓ Use AND and OR ([`and_or.asm`](tasks/logical/and_or.asm))
   
