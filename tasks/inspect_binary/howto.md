@@ -63,7 +63,7 @@ after it.
 
 ## xxd
 
-Another cool tool to look binaries is the program `xxd` (it was already
+Another cool tool to look into binaries is the program `xxd` (it was already
 pre-installed in my Linux Mint OS).
 Look at the output if we run it against our `hello` binary:
 

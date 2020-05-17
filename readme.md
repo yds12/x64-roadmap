@@ -82,7 +82,8 @@ the `tasks` directory.
   * ✓ Write a program with a `jmp` instruction
   ([`jump.asm`](tasks/jump/jump.asm) and [`labels.asm`](tasks/jump/labels.asm))
 
-* ✓ Flags, Comparisons and Conditional Jumps ([theory](tasks/flags/theory.md))
+* ✓ Flags, Comparisons and Conditional Jumps 
+  ([`flags/theory.md`](tasks/flags/theory.md))
 
   * ✓ Write a program with a conditional jump 
   ([`cond_jump.asm`](tasks/flags/cond_jump.asm))
@@ -104,11 +105,8 @@ the `tasks` directory.
 
   * ✓ Shift and Rotate operations ([`shift.asm`](tasks/logical/shift.asm))
 
-* Data Types
-
-* Memory Addressing and Pointers
-
-* The `.data` Section
+* Data Types, Memory Addressing and the `.data` Section
+  ([`data/run.md`](tasks/data/run.md))
 
 * The Stack
 
