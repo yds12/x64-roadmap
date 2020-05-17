@@ -60,6 +60,27 @@ just the lower 32-bit portion of **RAX**.
 the four pairs of hexadecimals (for a total of 4 bytes or 32 bits) passed 
 after it.
 
+
+## xxd
+
+Another cool tool to look binaries is the program `xxd` (it was already
+pre-installed in my Linux Mint OS).
+Look at the output if we run it against our `hello` binary:
+
+    $ xxd bin/hello
+    000000a0: 0d00 0000 0000 0000 0000 2000 0000 0000  .......... .....
+    000000b0: b801 0000 00bf 0100 0000 48be d800 6000  ..........H...`.
+    000000c0: 0000 0000 ba0d 0000 000f 05b8 3c00 0000  ............<...
+    000000d0: 4831 ff0f 0500 0000 4865 6c6c 6f2c 2077  H1......Hello, w
+    000000e0: 6f72 6c64 0a00 0000 0000 0000 0000 0000  orld............
+    000000f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+    00000100: 0000 0000 0300 0100 b000 4000 0000 0000  ..........@.....
+
+(This is just part of the output, I truncated it above and below.)
+As you can see, this program shows the ASCII characters corresponding to
+some bytes in the executable (and dots when it is not an ASCII char).
+
+
 ## C versus Assembly binaries
 
 Another interesting to compare, not even using these tools, is the size of

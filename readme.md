@@ -96,21 +96,21 @@ the `tasks` directory.
   greater than and less than comparisons
   ([`above_below.asm`](tasks/flags/above_below.asm))
 
-* Logical Operations ([`logical`](tasks/logical))
+* Logical and Bitwise Operations ([`logical`](tasks/logical))
 
   * ✓ Use AND and OR ([`and_or.asm`](tasks/logical/and_or.asm))
   
   * ✓ Use NOT and XOR ([`not_xor.asm`](tasks/logical/not_xor.asm))
 
-* Bit Operations
-
-  * Shift and Rotate operations
-
-* The Stack
+  * ✓ Shift and Rotate operations ([`shift.asm`](tasks/logical/shift.asm))
 
 * Data Types
 
 * Memory Addressing and Pointers
+
+* The `.data` Section
+
+* The Stack
 
 * Special `mov` instructions
 
@@ -128,8 +128,10 @@ the `tasks` directory.
 
 * Interacting with C
 
-* Vectors
+* Arrays
 
 * Manipulating Strings
 
 * NASM local labels
+
+* Using the Heap
