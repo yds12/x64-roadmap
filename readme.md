@@ -57,8 +57,7 @@ the `tasks` directory.
 
   * ✓ Disassemble a program with `objdump`
 
-* ✓ Basic Arithmetic ([`arithmetic`](tasks/arithmetic)), 
-  ([run](tasks/arithmetic/run.md))
+* ✓ Basic Arithmetic ([`arithmetic/run.md`](tasks/arithmetic/run.md))
 
   * ✓ Make a program that sums two numbers 
   ([`add.asm`](tasks/arithmetic/add.asm))
@@ -93,10 +92,9 @@ the `tasks` directory.
   * ✓ Write a program using the overflow flag
   ([`overflow.asm`](tasks/flags/overflow.asm))
 
-  * Write a program using the `@@`, `@F` and `@B` labels
-
-  * Write a program contrasting the above and below comparisons with the
+  * ✓ Write a program contrasting the above and below comparisons with the
   greater than and less than comparisons
+  ([`above_below.asm`](tasks/flags/above_below.asm))
 
 * Logical Operations ([`logical`](tasks/logical))
 
@@ -133,3 +131,5 @@ the `tasks` directory.
 * Vectors
 
 * Manipulating Strings
+
+* NASM local labels
