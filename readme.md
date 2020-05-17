@@ -108,6 +108,19 @@ the `tasks` directory.
 * Data Types, Memory Addressing and the `.data` Section
   ([`data/run.md`](tasks/data/run.md))
 
+  * ✓ Write a program that uses the `.data` section
+  ([`print_data.asm`](tasks/data/print_data.asm))
+ 
+  * ✓ Write a program that uses different data types
+  ([`types.asm`](tasks/data/types.asm))
+
+  * ✓ Write a program that uses addressing with displacement
+  ([`ret4bytes.asm`](tasks/data/ret4bytes.asm))
+
+  * Write a program using addressing with a base register
+
+  * Write a program using addressing with an index register and scale factor
+
 * The Stack
 
 * Special `mov` instructions
