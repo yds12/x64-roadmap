@@ -26,7 +26,7 @@ This is important because, if you tried to compile some of these programs
 that are called by `caller.c` with a data section, you might have had some
 linking errors. Try to run:
 
-    ./caller_c data problem
+    $ ./caller_c data problem
     /usr/bin/ld: bin/problem.o: relocation R_X86_64_32S against `.data' can 
     not be used when making a PIE object; recompile with -fPIC
     /usr/bin/ld: final link failed: Nonrepresentable section on output

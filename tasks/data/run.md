@@ -36,9 +36,6 @@ after that initial position, where `X` is a number literal.
 Then in `ret_words.asm` we use a combination of base register, index register
 and scale factor to access data.
 
-
-## RIP-Relative Addressing and Position-Independent Code (PIC)
-
 We use in most cases the keyword `rel` before referring to a data address,
 to avoid linking problems as explained [here](theory.md).
 
@@ -58,3 +55,5 @@ space for an array of 32-bit integers with 10 elements, we do:
 
 There is also a section for *read-only* data called `.rodata`, where you 
 cannot write. It is a good place to store constants.
+
+For examples with `.bss` see `bss.asm` and `array.asm`.

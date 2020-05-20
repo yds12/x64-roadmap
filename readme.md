@@ -126,9 +126,11 @@ the `tasks` directory.
   an index register and scale factor
   ([`ret_words.asm`](tasks/data/ret_words.asm))
 
-  * Write a program using the `.bss` section
+  * ✓ Write a program using the `.bss` section
+  ([`bss.asm`](tasks/data/bss.asm))
 
-  * Write a program that manipulates an array
+  * ✓ Write a program that manipulates an array
+  ([`array.asm`](tasks/data/array.asm))
 
 * The Stack
 
