@@ -132,7 +132,7 @@ the `tasks` directory.
   * ✓ Write a program that manipulates an array
   ([`array.asm`](tasks/data/array.asm))
 
-* ✓ The Stack
+* ✓ The Stack ([`stack/theory.md`](tasks/stack/theory.md))
 
   * ✓ Write a program that uses `push` and `pop`
   ([`push_pop.asm`](tasks/stack/push_pop.asm))
