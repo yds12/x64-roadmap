@@ -7,6 +7,8 @@ global asm_func
 asm_func:
   sub rsp, 8                 ; allocates 8 bytes of space on the stack
   mov qword [rsp], 49        ; uses it to store the value 49 there
+                             ; we have to tell nasm if we want to store 49 
+                             ; as a 16-bit or 64-bit value.
 
   mov ax, 0x0f01 
   push ax                    ; push 16-bit

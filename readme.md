@@ -144,7 +144,14 @@ the `tasks` directory.
 
 * Calling External Functions
 
-* Interacting with C
+  * Write a program divided in two files
+
+  * Write a library with a function containing arguments, and call it from
+  another `asm` file
+
+  * Call a function from C
+
+  * Write a library that takes arguments, and call it from C
 
 * Using the Heap
 
