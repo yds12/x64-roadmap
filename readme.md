@@ -24,6 +24,8 @@ the `tasks` directory.
   the return value ([`build.md`](tasks/first_prog/build.md))
 
   * ✓ Try to exit with various exit codes 
+  ([`exit8.asm`](tasks/first_prog/exit8.asm) and
+  [`exit256.asm`](tasks/first_prog/exit256.asm))
 
 * ✓ Make a "hello world" program ([`hello.asm`](tasks/helloworld/hello.asm))
 
@@ -105,8 +107,11 @@ the `tasks` directory.
 
   * ✓ Shift and Rotate operations ([`shift.asm`](tasks/logical/shift.asm))
 
-* Data Types, Memory Addressing and the `.data` Section
+* ✓ Data Types, Memory Addressing and the `.data` Section
   ([`data/run.md`](tasks/data/run.md))
+
+  * ✓ How memory works in Linux?
+  ([`theory.md`](tasks/data/theory.md))
 
   * ✓ Write a program that uses the `.data` section
   ([`print_data.asm`](tasks/data/print_data.asm))
@@ -117,9 +122,13 @@ the `tasks` directory.
   * ✓ Write a program that uses addressing with displacement
   ([`ret4bytes.asm`](tasks/data/ret4bytes.asm))
 
-  * Write a program using addressing with a base register
+  * ✓ Write a program using addressing with a base register,
+  an index register and scale factor
+  ([`ret_words.asm`](tasks/data/ret_words.asm))
 
-  * Write a program using addressing with an index register and scale factor
+  * Write a program using the `.bss` section
+
+  * Write a program that manipulates an array
 
 * The Stack
 
@@ -138,8 +147,6 @@ the `tasks` directory.
 * Calling External Functions
 
 * Interacting with C
-
-* Arrays
 
 * Manipulating Strings
 

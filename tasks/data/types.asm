@@ -1,8 +1,6 @@
 ; In this program we will explore the different "data types" in assembly,
 ; which are more like "data sizes".
 
-global asm_func
-
 ; The section .data will be loaded in memory together with our program,
 ; statically. This is a place where we can create constants that will be
 ; available during the program execution. They are not like constants
@@ -25,6 +23,7 @@ section .data
   a_qword: dq 9_000_000_000  ; we can use underscores to improve readability
 
 section .text
+global asm_func
 asm_func:
   xor rax, rax
 
