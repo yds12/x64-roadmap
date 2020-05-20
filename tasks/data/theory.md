@@ -13,7 +13,7 @@ organized in memory according to the picture below:
 
 ![memory_model](../../res/img/process_memory.png)
 
-([image source](https://gabrieletolomei.wordpress.com/miscellanea/operating-systems/in-memory-layout/))
+([image source](https://manybutfinite.com/post/anatomy-of-a-program-in-memory/))
 
 As you can see, the `.text` and `.data` segments are almost at the bottom
 of this memory region, after a small offset. This happens when we execute our

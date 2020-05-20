@@ -132,7 +132,23 @@ the `tasks` directory.
   * ✓ Write a program that manipulates an array
   ([`array.asm`](tasks/data/array.asm))
 
-* The Stack
+* ✓ The Stack
+
+  * ✓ Write a program that uses `push` and `pop`
+  ([`push_pop.asm`](tasks/stack/push_pop.asm))
+
+  * ✓ Write a program that uses the stack pointer to allocate space and
+  access elements on the stack ([`sp.asm`](tasks/stack/sp.asm))
+
+* The `call` Instruction 
+
+* Calling External Functions
+
+* Interacting with C
+
+* Using the Heap
+
+  * Use C's `malloc` and `free` to allocate and free memory dynamically
 
 * Special `mov` instructions
 
@@ -144,14 +160,8 @@ the `tasks` directory.
 
   * Division
 
-* The `call` Instruction 
-
-* Calling External Functions
-
-* Interacting with C
-
 * Manipulating Strings
 
-* NASM local labels
+* Floating point arithmetic
 
-* Using the Heap
+* NASM local labels
