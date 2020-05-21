@@ -140,7 +140,12 @@ the `tasks` directory.
   * ✓ Write a program that uses the stack pointer to allocate space and
   access elements on the stack ([`sp.asm`](tasks/stack/sp.asm))
 
-* The `call` Instruction 
+* ✓ The `call` Instruction ([`call/theory.md`](tasks/call/theory.md))
+
+  * ✓ Write a program that uses `call` ([`call.asm`](tasks/call/call.asm))
+
+  * ✓ Write a program that `call`s a `print` function/subroutine
+  ([`print_func.asm`](tasks/call/print_func.asm))
 
 * Calling External Functions
 
