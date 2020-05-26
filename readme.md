@@ -177,3 +177,9 @@ the `tasks` directory.
 * Floating point arithmetic
 
 * NASM local labels
+
+## Challenges
+
+* Write a function that receives an integer and prints it
+
+* Write a function that receives an integer and returns a string with it
