@@ -14,7 +14,7 @@ global _start
 _start:
   lea rbx, [rel big_space]   ; keeps the initial memory position at RBX
                              ; the LEA instruction (load effective address)
-                             ; is a handy way of calculate an address and
+                             ; is a handy way of calculating an address and
                              ; load it into a register. If we replace LEA
                              ; by MOV here, what will be put in RBX is the
                              ; value contained in big_space (in this case,

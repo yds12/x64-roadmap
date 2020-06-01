@@ -129,6 +129,9 @@ the `tasks` directory.
   * ✓ Write a program using the `.bss` section
   ([`bss.asm`](tasks/data/bss.asm))
 
+  * ✓ Write a program that uses a "global variable" from the `.bss` section
+  ([`var_bss.asm`](tasks/data/var_bss.asm))
+
   * ✓ Write a program that manipulates an array
   ([`array.asm`](tasks/data/array.asm))
 
