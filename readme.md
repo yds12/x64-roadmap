@@ -132,6 +132,9 @@ the `tasks` directory.
   * ✓ Write a program that uses a "global variable" from the `.bss` section
   ([`var_bss.asm`](tasks/data/var_bss.asm))
 
+  * ✓ Write a program that increments a "global variable" from the 
+  `.bss` section ([`inc_var.asm`](tasks/data/inc_var.asm))
+
   * ✓ Write a program that manipulates an array
   ([`array.asm`](tasks/data/array.asm))
 
