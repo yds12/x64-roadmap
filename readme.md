@@ -144,7 +144,8 @@ the `tasks` directory.
   ([`push_pop.asm`](tasks/stack/push_pop.asm))
 
   * ✓ Write a program that uses the stack pointer to allocate space and
-  access elements on the stack ([`sp.asm`](tasks/stack/sp.asm))
+  access elements on the stack ([`sp.asm`](tasks/stack/sp.asm) and
+  [`sp2.asm`](tasks/stack/sp2.asm))
 
 * ✓ The `call` Instruction ([`call/theory.md`](tasks/call/theory.md))
 
