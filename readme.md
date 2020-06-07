@@ -165,6 +165,9 @@ the `tasks` directory.
 
   * Write a library that takes arguments, and call it from C
 
+  * ✓ Write an assembly program that calls a C function
+  ([`malloc.asm`](tasks/extern/malloc.asm))
+
 * Using the Heap
 
   * Use C's `malloc` and `free` to allocate and free memory dynamically
