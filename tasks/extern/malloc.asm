@@ -8,14 +8,14 @@
 ; The -lc option tells ld to link with the C library, and the -I option is
 ; telling ld to use /lib64/ld-linux-x86-64.so.2 as the dynamic linker.
 ;
+; To see the return of the program, use:
+;
+;     $ echo $?
+;
 
 extern exit                  ; We declare these functions as extern to
 extern malloc                ; let nasm know that they are somewhere else.
                              ; The linker will do the job of finding them.
-
-section .data
-  ; 10 is "\n" and 0 is the C-string terminator
-  msg: db "Hello from x-%d asm!", 10, 0   
 
 section .text
 global _start
