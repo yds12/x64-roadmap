@@ -3,7 +3,7 @@
 ; Build with:
 ;
 ;     $ nasm -felf64 tasks/extern/malloc.asm -o bin/malloc.o
-;     $ ld bin/malloc.o -lc -I /lib/ld-linux.so.2 -o bin/malloc
+;     $ ld bin/malloc.o -lc -I /lib64/ld-linux-x86-64.so.2 -o bin/malloc
 ;
 ; The -lc option tells ld to link with the C library, and the -I option is
 ; telling ld to use /lib/ld-linux.so.2 as the dynamic linker.
