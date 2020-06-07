@@ -6,7 +6,7 @@
 ;     $ ld bin/malloc.o -lc -I /lib64/ld-linux-x86-64.so.2 -o bin/malloc
 ;
 ; The -lc option tells ld to link with the C library, and the -I option is
-; telling ld to use /lib/ld-linux.so.2 as the dynamic linker.
+; telling ld to use /lib64/ld-linux-x86-64.so.2 as the dynamic linker.
 ;
 
 extern exit                  ; We declare these functions as extern to
