@@ -79,6 +79,9 @@ the `tasks` directory.
   * ✓ Make a program that uses signed integer multiplication
   ([`imul.asm`](tasks/arithmetic/imul.asm))
 
+  * ✓ Make a program that obtains the negative of a number
+  ([`neg.asm`](tasks/arithmetic/neg.asm))
+
 * ✓ Labels and Unconditional Jumps ([`jump`](tasks/jump))
 
   * ✓ Write a program with a `jmp` instruction
