@@ -156,16 +156,24 @@ the `tasks` directory.
 
 * Calling External Functions
 
-  * Write a program divided in two files
+  * ✓ Write a program divided in two files using `extern`/`global`
+  ([`uselib.asm`](tasks/extern/uselib.asm) and
+  [`lib.asm`](tasks/extern/uselib.asm))
+
+  * ✓ Write a program divided into two `.asm` files using the `include` macro
+  ([`includer.asm`](tasks/extern/includer.asm) and
+  [`include.asm`](tasks/extern/include.asm))
 
   * Write a library with a function containing arguments, and call it from
   another `asm` file
 
   * Call a function from C
 
-  * Write a library that takes arguments, and call it from C
+  * Write an assembly library function that takes arguments, and call it from C
 
-  * ✓ Write an assembly program that calls a C function
+  * Write an assembly program that calls a C function
+
+  * ✓ Write an assembly program that calls a C library function
   ([`malloc.asm`](tasks/extern/malloc.asm))
 
 * Using the Heap
