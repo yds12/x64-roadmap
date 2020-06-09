@@ -158,7 +158,7 @@ the `tasks` directory.
 
   * ✓ Write a program divided in two files using `extern`/`global`
   ([`uselib.asm`](tasks/extern/uselib.asm) and
-  [`lib.asm`](tasks/extern/uselib.asm))
+  [`lib.asm`](tasks/extern/lib.asm))
 
   * ✓ Write a program divided into two `.asm` files using the `include` macro
   ([`includer.asm`](tasks/extern/includer.asm) and
