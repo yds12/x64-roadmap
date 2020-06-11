@@ -191,7 +191,8 @@ the `tasks` directory.
 
 * Arithmetic 2
 
-  * Division
+  * ✓ Write a program with division operations
+  ([`idiv.asm`](tasks/arith2/idiv.asm))
 
 * Manipulating Strings
 
