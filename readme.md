@@ -189,10 +189,13 @@ the `tasks` directory.
 
   * Conditional `mov`
 
-* Arithmetic 2
+* ✓ Arithmetic 2
 
   * ✓ Write a program with division operations
   ([`idiv.asm`](tasks/arith2/idiv.asm))
+  
+  * ✓ Write a program that does proper signed divisions with sign extensions
+  ([`sx.asm`](tasks/arith2/sx.asm))
 
 * Manipulating Strings
 
